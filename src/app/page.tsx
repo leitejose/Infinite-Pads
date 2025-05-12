@@ -1,13 +1,12 @@
 "use client";
 
 import React, { useState } from "react";
-
 import { PadGrid } from "../components/PadGrid";
 import { usePadPlayer } from "../components/PadPlayer";
+import Image from 'next/image'; // Importa o componente Image do Next.js
 
 export default function App() {
-  const [key, setKey] = useState("C");
-  const [patch, setPatch] = useState("reawaken");
+  const [patch] = useState("reawaken");
   const [volume, setVolume] = useState(50);
   const [crossfade, setCrossfade] = useState(2);
 
@@ -22,7 +21,14 @@ export default function App() {
     >
 
       <div className="absolute top-4 left-4">
-        <img src="/logo.svg" alt="Logo" className="w-16 h-16 object-contain" />
+        {/* Substitui a tag img pelo componente Image */}
+        <Image
+          src="/logo.svg"
+          alt="Logo"
+          className="w-16 h-16 object-contain"
+          width={64}    // Define a largura da imagem
+          height={64}   // Define a altura da imagem
+        />
       </div>
 
       <h1 className="text-3xl text-white font-bold p-7 text-center">Infinite Pads</h1>
