@@ -2,7 +2,7 @@
 
 Uma aplicação web interativa que permite tocar sons de pads musicais com transições suaves (crossfade), controle de volume e seleção de notas musicais.
 
-![Preview](.public/captura.png) <!-- Substitua por um screenshot real do app se quiser -->
+(.public/captura.png) <!-- Substitua por um screenshot real do app se quiser -->
 
 ---
 
@@ -30,7 +30,7 @@ Uma aplicação web interativa que permite tocar sons de pads musicais com trans
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/infinite-pads.git
+git clone https://github.com/leitejose/Infinite-Pads
 cd infinite-pads
 
 # Instale as dependências
