@@ -2,7 +2,7 @@
 
 Uma aplicação web interativa que permite tocar sons de pads musicais com transições suaves (crossfade), controle de volume e seleção de notas musicais.
 
-![Preview](./screenshot.png) <!-- Substitua por um screenshot real do app se quiser -->
+![Preview](./captura.png) <!-- Substitua por um screenshot real do app se quiser -->
 
 ---
 
